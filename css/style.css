@@ -122,9 +122,9 @@ h3
   color:rgb(0, 0, 0);
   font-weight: 500px;
   font-size: 20px;
-  background: rgba(255, 255, 255, 0.1);
   padding: 10px;
   border-radius: 1cm;
+  background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.4);
   text-shadow: 2px 2px 5px floralwhite;
   transition: 2s;
@@ -143,4 +143,25 @@ h3:hover
 {
   color: cyan;
 }
+.ratig
+{
+  margin-top: 1cm;
+  padding: 20px 20px;
+  align-items: center;
+  width: 100%;
+  height: 08cm;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px double rgba(255, 255, 255, 0.4);
+}
+.rm
+{
+ text-align: center;
+ color:azure;
+ text-shadow: 2px 1px 5px white;
+}
+.im3
+{
+  padding: 20px 50px;
+  margin-left: 0.5cm;
 
+}
