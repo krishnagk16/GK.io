@@ -1,23 +1,68 @@
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Font+Name">
 *
 {
   margin: 0;
   padding: 0;
 }
-.logimg
+body
 {
-  display: flex;
-  background-color: aqua;
-  gap: 10px;
-  padding: 20px;
+  background-image: url("/img/BG.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 
 }
-img
+.Main
+{
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+;
+
+}
+.im
 {
   width: 100px;
   height: 100px;
+  box-shadow: 0 0 30px white;
+  border-radius: 4cm;
+
 }
 .CN
 {
   margin-top: 25px;
+  white-space: nowrap;
+  color: aqua;
   
+}
+nav ul li
+{
+  float: left;
+  white-space: nowrap;
+  
+}
+.Navitam
+{
+  height: 40px;
+  text-decoration: none;
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 3cm;
+  
+  
+}
+.Manu
+{
+  
+  padding: 20px 20px;
+  margin-left: 16cm;
+  
+}
+.listmanu
+{
+  list-style-type: none;
+  gap: 10px;
+  display: flex;
 }
