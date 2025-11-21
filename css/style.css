@@ -218,4 +218,25 @@
   transform: scale(1.5);
 
 }
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .Main {
+    text-align: center;
+    flex-direction: column;
+  }
 
+  .listmanu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .detail,
+  .detail1 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .im3 {
+    width: 80%;
+  }
+}
