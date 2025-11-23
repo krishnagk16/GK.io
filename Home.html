@@ -17,7 +17,7 @@
            <li class="lis"><a class="Navitam" href="About.html">ABOUT US</a></li>
            <li class="lis"><a class="Navitam" href="Services.html">SERVICES</a></li>
            <li class="lis"><a class="Navitam" href="Contact.html">CONTACT US</a></li>
-           <li class="lis"><a class="Navitam" href="#" onclick="openLogin(); return false"; >LOGIN</a></li>
+           <li class="lis"><a class="Navitam" onclick="openLogin(); return false"; >LOGIN</a></li>
           </ul>
         </nav>
     </div>
@@ -41,8 +41,8 @@
       <input class="rem" type="checkbox" name="Reminder Me"> <label>Reminder Me</label>
       </label>
       <a href="#" class="forgot"> Forget Password?</a><br>
-      <input class="sum" type="submit" value="LOGIN"><br><br>
-       Don't Have an Account<a href="#" class="register"> Register?</a><br>
+      <input class="sum" type="submit" value="LOGIN"><br><br><br>
+      <span class="s">Don't Have an Account</span><a onclick="openreg(); return false" class="register"> Register?</a><br>
     </form> 
 
    </div>
@@ -69,6 +69,32 @@ Used with analog or digital cameras, these systems utilize a video server to str
   </div>
     
 </div>
+
+
+
+
+<div id="regbox" class="popreg">
+     <span id="rcloseBtn" class="rclose-btn"> &times;</span>
+    <form class="freg">
+      
+      <h1 class="regh"> REGISTER </h1>
+      <input class="upr" type="text" placeholder="Username"><br>
+      <input class="upr" type="password" placeholder="Password"><br>
+      <input class="upr" type="password" placeholder="Confirm Password"><br>
+      <input class="upr" type="email" placeholder="Email"><br>
+      <input class="upr" type="number" placeholder="Enter the OTP"><br>
+      <input class="subm" type="submit" id="regSubmit">
+      <a class="lr" onclick="openLogin(); return false";><input class="l" type="submit" value="LOGIN"></a>
+      <h2 class="thnx">🤗Wellcome to the Show Line🤗</h2>
+    </form>
+</div>
+
+<div id="successBox" class="successPop">
+    <h2 class="hi">👏👏Thank you for the confirmation. I have received the details and look forward to it👏👏</h2>
+</div>
+
+
+
 <script src="script.js"></script>
 </body>
 </html>
