@@ -105,4 +105,8 @@ document.getElementById("regSubmit").addEventListener("click", function (event) 
     }, 200);
 }, 2000);
 });
+//reload animation
 
+   window.onload = () => {
+  document.body.classList.add("loaded");
+};

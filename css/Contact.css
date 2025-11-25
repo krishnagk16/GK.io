@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.INLOB
+{   
+    display: flex;
+}
+
+.INLO
+{
+   width: 20px;
+}
+body
+{   display: inline-block;
+   
+    background-image:url("../img/pic.jpg");
+}
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(12, 10, 10, 0.628); /* change 0.5 = opacity */
+    pointer-events: none; 
+    z-index: -1;
+}
+.Form
+{
+     
+  transition: 2s;
+  transform:  scale(1); 
+    display:inline-block;
+    margin-bottom: .5cm;
+   height: 10cm;
+   width:13cm;
+   margin: 1cm;
+   margin-left: 15cm;
+    box-shadow: 3px 3px 8px white,-3px -3px 8px white;
+}
+.q
+{
+    margin-right: 17.8cm;
+    color:rgb(6, 248, 236);
+    text-align: center;
+    
+    
+}
+
+.A
+{
+   
+   margin-bottom: .5cm;
+   height: 1cm;
+   width:10cm;
+   margin-left: 1cm;
+   
+}
+a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1cm;
+    
+}
+.Submit
+{
+    margin-left: 5cm;
+    width: 2cm;
+    
+}
+span
+{
+    display: inline-block;
+    margin-top: 1cm;
+}
+
+
+
+/* animation when page loads */
+body.loaded .Form {
+  transform:scale(1.1);
+}
+.line
+{
+    display: block;
+    width:60cm;
+    margin-top: 1cm;
+}
+.contact h2
+{
+    color:rgb(0, 255, 234)
+}
+.d
+{ 
+    font-size:larger;
+    font-family:cursive;
+    color:white
+}
+
+.instagram
+{
+    margin-left: 0;
+
+    margin-top: -.1cm;
+}
+

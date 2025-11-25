@@ -406,7 +406,6 @@ label
 
 .regh
 {
-
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 1cm;
   text-shadow: 5px 5px 2px black;
@@ -466,8 +465,6 @@ label
 {
  display:inline-block;
  cursor: pointer;
- 
- 
 }
 @keyframes dance
 {
