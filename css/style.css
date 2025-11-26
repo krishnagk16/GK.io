@@ -3,21 +3,35 @@
   {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
+  html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
   body
   {
     background-image: url("../img/BG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
   }
+  /*this change code */
+  @supports (-webkit-touch-callout: none) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
   .Main
   {
     position: fixed;
     display: flex;
     gap: 10px;
     padding: 20px;
-
+    width: 100%;
   }
   .im
   {
@@ -86,7 +100,8 @@
   {
     
     padding: 20px 20px;
-    margin-left: 18cm;
+    /*margin-left: 18cm;*/
+    margin-left: auto;
     
   }
   .listmanu
@@ -101,14 +116,16 @@
     margin-top: 4cm;
     margin-left: 2cm;
     text-align: left;
-    width:7cm;
+   /* width:7cm;*/
+   width: 50%;
     
   }
   .detail1
   {
     
     display:inline-block;
-    width:8cm;
+    /*width:8cm;*/
+    width: 50%;
     margin-top: 5cm;
     margin-left: 21cm;
     text-align: left;
@@ -140,6 +157,8 @@
   {
     display:flex;
     width: 100%;
+    padding-top: 20px;
+
   }
   .d1
   {
@@ -147,11 +166,11 @@
   }
   .ratig
   {
-    margin-top: 1cm;
-    padding: 20px 20px;
+    margin-top: 40px;
+    padding: 20px;
     align-items: center;
-    width: 100%;
-    height: 08cm;
+    /*width: 100%;
+    height: 08cm;*/
     background: rgba(255, 255, 255, 0.1);
     border: 1px double rgba(255, 255, 255, 0.4);
   }
@@ -163,15 +182,17 @@
   }
   .im3
   {
-    padding: 20px 50px;
-    margin-left: 0.5cm;
+    /*padding: 20px 50px;
+    margin-left: 0.5cm;*/
+    width: 200px;
+    margin: 10px;
 
   }
   .poplongin
   {
     position: fixed;
     display: inline-block;
-    width: 9cm;
+    width: 380px;
     height: 10cm;
     text-align: center;
     padding: 20px;
@@ -509,3 +530,27 @@ label
    color: white;
    text-shadow: 5px 1px 1px black;
 }
+
+
+@media (max-width: 600px) {
+    .Main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Manu {
+        margin-left: 0;
+    }
+
+    .listmanu {
+        flex-direction: column;
+    }
+
+    .c {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .detail, .detail1 {
+        width: 100%;
+    }
